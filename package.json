@@ -4,7 +4,7 @@
   "description": "Portfolio boilerplate with codeigniter4 and bootstrap5",
   "main": "index.js",
   "scripts": {
-    "compile:scss": "sass scss:public/assets/css"
+    "compile:scss": "sass --watch scss:public/assets/css"
   },
   "repository": {
     "type": "git",
