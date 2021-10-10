@@ -135,3 +135,6 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+#custom
+dev-assets/css/*
