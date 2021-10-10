@@ -1,0 +1,36 @@
+{
+  "name": "portfolio-boilerplate",
+  "version": "1.0.0",
+  "description": "Portfolio boilerplate with codeigniter4 and bootstrap5",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass scss:public/assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maher-Amara/portfolio-boilerplate.git"
+  },
+  "keywords": [
+    "html5",
+    "php7",
+    "css3",
+    "scss",
+    "codeigniter4",
+    "bootstrap5"
+  ],
+  "author": "maherDEV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maher-Amara/portfolio-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Maher-Amara/portfolio-boilerplate#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.7",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.0.1"
+  }
+}
