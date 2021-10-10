@@ -4,8 +4,11 @@
   "description": "Portfolio boilerplate with codeigniter4 and bootstrap5",
   "main": "index.js",
   "scripts": {
-    "compile:scss": "sass --watch scss:public/assets/css"
-  },
+    "compile-scss:watch": "sass --watch scss:public/css",
+    "compile-scss": "sass scss:public/css",
+    "autoprefix-css":"postcss public/css/style.css --use autoprefixer -d public/css/style.css",
+    "minify-css":""
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maher-Amara/portfolio-boilerplate.git"
