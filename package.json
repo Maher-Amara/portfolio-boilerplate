@@ -6,8 +6,8 @@
   "scripts": {
     "dev:compile-scss:watch": "sass --watch scss:public/css",
     "dev:compile-scss": "sass scss:public/css",
-    "dev:autoprefix": "postcss public/css/style.css --use autoprefixer -d public/css/style.css",
-    "prod:minify-css": "cleancss -o public/css/style.min.css dev-assets/css/style.css --source-map",
+    "dev:autoprefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefix-style.css",
+    "prod:minify-css": "cleancss -o public/css/style.min.css public/css/style.css --source-map",
     "build": ""
   },
   "repository": {
