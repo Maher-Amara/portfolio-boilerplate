@@ -4,11 +4,10 @@
   "description": "Portfolio boilerplate with codeigniter4 and bootstrap5",
   "main": "index.js",
   "scripts": {
-    "dev:compile-scss:watch": "sass --watch scss:public/css",
-    "dev:compile-scss": "sass scss:public/css",
-    "dev:autoprefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefix-style.css",
-    "prod:minify-css": "cleancss -o public/css/style.min.css public/css/style.css --source-map",
-    "build": ""
+    "compile-scss": "sass scss:public/css",
+    "purge-css": "purgecss --config ./purgecss.config.js",
+    "autoprefix": "postcss public/css/style.purge.css --use autoprefixer -d public/css/public/css/style.prefix.css",
+    "minify-css": "cleancss -o public/css/style.min.css public/css/style.purge.css --source-map"
   },
   "repository": {
     "type": "git",
@@ -32,6 +31,7 @@
     "autoprefixer": "^10.3.7",
     "clean-css-cli": "^5.4.1",
     "postcss-cli": "^9.0.1",
+    "purgecss": "^4.0.3",
     "sass": "^1.42.1"
   },
   "dependencies": {
